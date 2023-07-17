@@ -1,5 +1,7 @@
 import React from "react";
 
+import Header from "../components/Header";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
@@ -27,16 +29,22 @@ function clickme(){
 class Event extends React.Component{
 
     render(){
+
+  
         return(
+
+          <>
+
+          <Header/>
             <div className="main-container">
             <aside className="sidebar">
-              <a className="active" href="../html/index.html"><FontAwesomeIcon icon={faHome}/> HOME</a>
+              <a  href="../Home"><FontAwesomeIcon icon={faHome}/> HOME</a>
               <a href><FontAwesomeIcon icon={faUniversity}/>ABOUT THE SCHOOL</a>
-              <a href="../html/yaleapply.html"><FontAwesomeIcon icon={faPencil}/> APPLICATIONS</a>
+              <a href=""><FontAwesomeIcon icon={faPencil}/> APPLICATIONS</a>
               <a href><FontAwesomeIcon icon={faBirthdayCake}/> EXHIBITIONS</a>
-              <a href="../html/yalepublication.html"><FontAwesomeIcon icon={faFileText}/>  PUBLICATIONS</a>
+              <a href="../public"><FontAwesomeIcon icon={faFileText}/>  PUBLICATIONS</a>
               <a href><FontAwesomeIcon icon={faNewspaper}/>  NEWS</a>
-              <a href="../html/yaleevents.html"><FontAwesomeIcon icon={faBell}/>  PUBLIC EVENTS</a>
+              <a className="active" href="../html/yaleevents.html"><FontAwesomeIcon icon={faBell}/>  PUBLIC EVENTS</a>
               <a href="../html/yalesignup.html"><FontAwesomeIcon icon={faUser}/> PROFILE</a>
               <a className="anime" onclick="disco()"><i className="fa fa-play-circle" /> DISCO</a>
               <a className="anime" href="../html/index.html"><i className="fa fa-stop" /> NO DISCO</a>
@@ -176,6 +184,8 @@ class Event extends React.Component{
                 </div>
               </div></main>
           </div>
+
+          </>
         )
     }
 }
