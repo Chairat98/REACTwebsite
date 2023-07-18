@@ -19,7 +19,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faImage } from "@fortawesome/free-solid-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
-import windomWall from '../images/download1.jfif';
+import windomWall from '../images/windowWall.jpg';
 import Header from "../components/Header";
 
 function clickme(){
