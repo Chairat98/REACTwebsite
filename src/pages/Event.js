@@ -20,7 +20,7 @@ import { faComment } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 
-import windomWall from '../images/download1.jfif';
+import windomWall from '../images/windowWall.jpg';
 
 function clickme(){
   alert('Hej!!!');
