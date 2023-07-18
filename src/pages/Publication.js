@@ -19,7 +19,7 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { faComment } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-import windowWall from '../images/download1.jfif';
+import windowWall from '../images/windowWall.jpg';
 
 function clickme(){
   alert('สวัสดี!!!');
